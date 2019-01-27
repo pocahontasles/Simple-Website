@@ -39,6 +39,7 @@ h2{
   font-family: "Josefin Sans Bold", Josefin Sans, sans-serif ;
   font-size: 24px ;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 h3{
   font-family: "Aleo Regular", Aleo, sans-serif ;
@@ -47,7 +48,7 @@ h3{
 }
 h4{
   font-family: "Josefin Sans Regular", Josefin Sans, sans-serif ;
-  font: 20px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 .wrapper {
@@ -91,17 +92,17 @@ text-align: center;
   right: 232px ;
   bottom: 2px;
   width: 148px;
-  height: 57px;
+  height: 56px;
   border: none;
-  background-color: #5474fd;
   text-transform: uppercase;
   color: #FFFFFF;
+  cursor: pointer;
 }
-.search-bar input[type="submit"]:after{
-  content: '';
-  width: 30px;
-  height: 30px;
-  background: #5474fd url("../images/search.png") no-repeat center;
+.button-add{
+  background-image: url(../images/search.png);
+  background-color: #5474fd;
+  background-repeat: no-repeat;
+  background-position: 110px 18px;
 }
 
 div.scroll{
@@ -163,7 +164,7 @@ button{
   text-transform: uppercase;
   font-size: 16px;
   font-family: "Aleo Regular", Aleo, sans-serif ;
-
+cursor: pointer;
 }
 
 div.view{
@@ -223,24 +224,36 @@ div.view{
 .testament{
   background: url("../images/tourist_bg.png") no-repeat center;
 }
-.wrapper h3{
+.heading{
   text-align: center;
-  margin: 0 auto;
-  padding: 100px 0;
+
+}
+.padding-tourist{
+  min-height: 732px;
+  padding: 100px 0 195px 0;
 }
 .tourist{
   display: flex;
   min-height: 284px;
   align-items: center;
-  padding-bottom: 200px;
+padding-top: 80px ;
 
 }
 article.text-tourist{
-padding: 60px 50px ;
   background-color: #333333;
+  width: 665px;
+  height: 284px;
+  padding: 45px;
+
 }
+.quotations{
+  position: relative;
+  top: 15px;
+}
+
 .text-tourist p{
-  padding-top: 2px;
+
+  text-indent: 30px
 }
 footer{
   background-color: #232323;
@@ -252,12 +265,18 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 110px 0 50px 0;
 }
 .flex-footer span{
   font-family: "Josefin Sans Regular", Josefin Sans, sans-serif ;
   font-size: 16px;
+  letter-spacing: 1px;
 
 }
-
+.follow-us{
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+}
 
